@@ -1,0 +1,14 @@
+{
+  "balanced_training_median": -0.0126030047734577,
+  "primary_balanced_median_macro_mae": 0.043659226301098385,
+  "matched_month_train_n": 483,
+  "matched_month_test_n": 853,
+  "matched_month_selected_macro_mae": 0.041091293020807634,
+  "matched_month_median_macro_mae": 0.04508591266432127,
+  "matched_month_model": [
+    "optical",
+    "forest",
+    15
+  ],
+  "interpretation": "same development-selected family and parameter, refitted to alternate target; no test-driven model selection"
+}
