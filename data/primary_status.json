@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "target": "ndvi_deficit_2023",
+  "selected": [
+    "optical",
+    "forest",
+    15
+  ],
+  "selection_macro_mae": 0.03950298329273079,
+  "nested_macro_mae": 0.04309381066957718,
+  "nested_median_macro_mae": 0.04322193156936499,
+  "test_macro_mae": {
+    "selected": 0.035944068021454674,
+    "median": 0.04364737876930954,
+    "persistence": 0.09948122565677193
+  },
+  "train_n": 502,
+  "test_n": 855,
+  "legacy_n": 205,
+  "train_landscapes": 8,
+  "test_landscapes": 3,
+  "equal_landscape_training_weights": true,
+  "test_interpretation": "new locations reserved after pilot; one storm and one transfer region; not a new external prospective cohort",
+  "seed": 20261021
+}
