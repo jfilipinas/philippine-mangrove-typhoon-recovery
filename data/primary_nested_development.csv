@@ -1,0 +1,11 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: data__primary_nested_development.csv>
+index,landscape,n,selected,mae,median_mae
+0,leyte_01,94,"('fused', 'ridge', 100)",0.0410744173321087,0.0411711682545694
+1,leyte_02,96,"('fused', 'ridge', 100)",0.0285045779868061,0.031667096281631
+2,leyte_03,50,"('optical', 'forest', 15)",0.0417990786049942,0.0404165955384571
+3,leyte_04,54,"('optical', 'forest', 15)",0.0301739192855465,0.0301420573651054
+4,siargao_01,90,"('optical', 'ridge', 100)",0.0640499038150923,0.075423976668605
+5,siargao_02,20,"('optical', 'ridge', 100)",0.059310347361526,0.054807212203741
+6,siargao_03,88,"('fused', 'forest', 15)",0.045071544462071,0.0324428756580207
+7,siargao_04,10,"('optical', 'forest', 5)",0.0347666965084722,0.0397044705847898
