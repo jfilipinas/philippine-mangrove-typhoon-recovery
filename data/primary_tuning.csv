@@ -1,0 +1,18 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: data__primary_tuning.csv>
+index,features,model,parameter,selection_macro_mae
+0,optical,forest,15,0.0395029832927307
+1,optical,forest,5,0.0395598003913899
+2,fused,forest,15,0.039708739010174
+3,fused,ridge,100,0.039842311642059
+4,optical,ridge,100,0.0401404286801506
+5,fused,forest,5,0.0403534024763364
+6,optical,ridge,10,0.0404422393038007
+7,fused,ridge,10,0.0406163823410925
+8,optical,ridge,1,0.0406577417203971
+9,fused,ridge,1,0.041131904854372
+10,radar,ridge,100,0.041539284695866
+11,radar,ridge,10,0.041605882282465
+12,radar,ridge,1,0.0416272884993736
+13,radar,forest,15,0.0422343225002463
+14,radar,forest,5,0.0448509851944564
