@@ -1,0 +1,8 @@
+{
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "scikit-learn": "1.8.0",
+  "matplotlib": "3.10.8",
+  "notes": "Core analysis used PYTHONPATH=mangrove_vendor (NumPy 2.5.4); GEDI acquisition used separate gedi_vendor and gediDB 2026.4.30. Python 3.12.14. See requirements and verification report."
+}
