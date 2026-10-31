@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "checks": {
+    "every_requested_cutout_present": true,
+    "unique_requested_pairs": true,
+    "twelve_landscapes_four_per_region": true,
+    "minimum_geodesic_separation_8km": true,
+    "candidate_and_complete_case_counts": true,
+    "development_landscapes_8": true,
+    "fresh_transfer_landscapes_3": true,
+    "legacy_test_not_development_or_fresh": true,
+    "per_landscape_MAE_recomputed": true,
+    "macro_MAE_selected": true,
+    "macro_MAE_median": true,
+    "macro_MAE_persistence": true,
+    "all_three_new_R2_negative": true,
+    "GEDI_shot_identifiers_preserved_unique": true,
+    "GEDI_flags_and_sensitivity": true,
+    "GEDI_fraction_units_and_purity": true,
+    "temporal_match_and_clear_support": true,
+    "prestorm_matching_does_not_cross_event": true,
+    "no_GEDI_Q42023_reference_claim": true,
+    "calibration_sample_counts": true,
+    "canopy_macro_MAE_recomputed": true,
+    "insufficient_canopy_forecast_not_estimated": true,
+    "abstract_max_300_words": true,
+    "maximum_25_papers": true,
+    "no_unresolved_template_tokens": true,
+    "validation_only_scenes_excluded_from_forecast": true
+  },
+  "cutouts": 1420,
+  "matched_GEDI_shots": 592,
+  "research_papers": 24,
+  "abstract_words": 223,
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "2.2.3"
+  },
+  "limits": "Checks establish numerical/provenance consistency, not ecological accuracy or full statistical independence."
+}
