@@ -1,0 +1,1 @@
+Research tables, GEDI matches, and observation cutouts are being reviewed for licensing, privacy, completeness, and reproducibility before upload. No raw research observations have been uploaded through this integration.
