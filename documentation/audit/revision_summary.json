@@ -1,0 +1,98 @@
+{
+  "landscapes": 12,
+  "minimum_separation_km": 8.038317407947979,
+  "candidate_cells": 4196,
+  "forecast_cells": 1562,
+  "window_scene_pairs": 1420,
+  "unique_scene_ids": 663,
+  "GEDI_qualified": 705,
+  "GEDI_matched": 592,
+  "GEDI_matched_landscapes": 10,
+  "primary": {
+    "status": "completed",
+    "target": "ndvi_deficit_2023",
+    "selected": [
+      "optical",
+      "forest",
+      15
+    ],
+    "selection_macro_mae": 0.03950298329273079,
+    "nested_macro_mae": 0.04309381066957718,
+    "nested_median_macro_mae": 0.04322193156936499,
+    "test_macro_mae": {
+      "selected": 0.035944068021454674,
+      "median": 0.04364737876930954,
+      "persistence": 0.09948122565677193
+    },
+    "train_n": 502,
+    "test_n": 855,
+    "legacy_n": 205,
+    "train_landscapes": 8,
+    "test_landscapes": 3,
+    "equal_landscape_training_weights": true,
+    "test_interpretation": "new locations reserved after pilot; one storm and one transfer region; not a new external prospective cohort",
+    "seed": 20261021
+  },
+  "canopy": {
+    "status": "completed",
+    "development_shots": 243,
+    "new_test_shots": 348,
+    "development_landscapes": 6,
+    "new_test_landscapes": 3,
+    "intercept": 0.6502106627536339,
+    "slope": -0.37140540852523424,
+    "median_development_cover": 0.036251545,
+    "notes": "Concurrent NDVI-cover calibration. Independent lidar measurement, not field truth or a validation of Q4 2023 recovery.",
+    "primary_30d": {
+      "shots": 348,
+      "landscapes": 3,
+      "mae_macro": 0.3494240341321631,
+      "median_mae_macro": 0.5414464721904406,
+      "balanced_median_mae_macro": 0.39807540367032573
+    },
+    "prestorm": {
+      "shots": 282,
+      "landscapes": 3,
+      "mae_macro": 0.37063936302585393,
+      "median_mae_macro": 0.559212408725729,
+      "balanced_median_mae_macro": 0.4200571213553261
+    },
+    "poststorm": {
+      "shots": 66,
+      "landscapes": 2,
+      "mae_macro": 0.22393340507233792,
+      "median_mae_macro": 0.42618990352923974,
+      "balanced_median_mae_macro": 0.26316730852339176
+    },
+    "lag_15d": {
+      "shots": 271,
+      "landscapes": 3,
+      "mae_macro": 0.37922056340645743,
+      "median_mae_macro": 0.6009542175097372,
+      "balanced_median_mae_macro": 0.43876632723701015
+    },
+    "sensitivity_098": {
+      "shots": 141,
+      "landscapes": 3,
+      "mae_macro": 0.40992638205931375,
+      "median_mae_macro": 0.6851699494055943,
+      "balanced_median_mae_macro": 0.48986268804403005
+    },
+    "shift_10m_pure": {
+      "shots": 340,
+      "landscapes": 3,
+      "mae_macro": 0.34988376906031066,
+      "median_mae_macro": 0.5430680901802788,
+      "balanced_median_mae_macro": 0.3992633532042667
+    },
+    "night": {
+      "shots": 291,
+      "landscapes": 3,
+      "mae_macro": 0.35966443813886295,
+      "median_mae_macro": 0.5471121077119382,
+      "balanced_median_mae_macro": 0.40787173570050966
+    },
+    "balanced_development_cover_median": 0.2520979
+  },
+  "remaining": "Local field/airborne truth, direct late-2023 canopy reference, additional storms/transfer regions, correspondence metadata and final journal review."
+}
