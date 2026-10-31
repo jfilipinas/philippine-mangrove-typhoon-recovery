@@ -1,0 +1,10 @@
+numpy==2.5.4
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+rasterio==1.5.2
+pyproj==3.8.0
+shapely==2.2.0
+requests==2.34.2
+gedidb==2026.4.30
